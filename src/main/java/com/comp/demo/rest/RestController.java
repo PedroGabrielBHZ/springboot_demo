@@ -6,6 +6,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class RestController {
     @GetMapping(value = "/", produces = "text/html")
     public String sayHello() {
-        return "<!DOCTYPE html><html><head><title>Welcome</title></head><body><h1>Welcome!</h1><p>This is a simple HTML welcome page.</p></body></html>";
+        return "<!DOCTYPE html><html><head><title>Willkommen.</title></head><body><h1>Welcome!</h1><p>This is a simple HTML welcome page.</p></body></html>";
     }
 }
